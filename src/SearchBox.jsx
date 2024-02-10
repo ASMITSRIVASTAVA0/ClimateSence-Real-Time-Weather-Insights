@@ -69,10 +69,10 @@ export default function SearchBox({updateInfo}){
     }
     return (
         <div className="SearchBox">
-            <h3>Search for the Weather</h3>
+            <h3 style={{fontSize:"1.4rem", backgroundColor:"red"}}>Search for the Weather</h3>
             
             <form onSubmit={handleSubmit} >
-                <TextField
+                <TextField style={{backgroundColor:"blue"}}
                 id="city"
                 label="City Name"
                 variant="outlined"

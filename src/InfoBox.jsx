@@ -45,7 +45,7 @@ export default function InfoBox({info}){
                         
                     title="green iguana"
                 />
-                <CardContent>
+                <CardContent style={{backgroundColor:"blue"}}>
                     <Typography gutterBottom variant="h5" component="div">
                     <h2>{info.city}
                     {

@@ -21,7 +21,7 @@ export default function WeatherApp(){
 
     return (
         <div style={{textAlign:"center"}}>
-            <h2>Weather Wiglet</h2>
+            <h2 style={{fontSize:"2rem"}}>Weather Wiglet</h2>
             <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
         </div>
